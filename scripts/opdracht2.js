@@ -6,7 +6,7 @@
 
 // Ik heb hier de key sold voor nodig en die van alle entries van de array bij elkaar optellen. Dit kan met for-loop en dan let variabele aanmaken die we kunnen overschrijven elke keer als hij over sold loopt.
 
-let soldTvs = null;
+let soldTvs = 0;
 
 for (let i = 0; i < inventory.length; i++) {
     soldTvs += inventory[i].sold;
@@ -25,7 +25,7 @@ soldTvsInGreen.textContent = soldTvs;
 
 // De key originalStock van de objecten bij elkaar optellen met forloop. Een let variabel aanmaken die kan worden overschreven.
 
-let stockTvs = null;
+let stockTvs = 0;
 
 for (let i = 0; i < inventory.length; i++) {
     stockTvs += inventory[i].originalStock;

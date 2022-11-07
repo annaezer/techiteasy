@@ -36,9 +36,9 @@ console.log(tvWithAmbiLight);
 // console.
 
 // Dit kan met sort-methode. Eerst een variabele maken om het resultaat in op te slaan en parameter geven aan functie zodat we de inhoud van de array terugkrijgen.
+//
+// const tvPriceLowToHigh = inventory.sort((a, b) => {
+//     return a.price - b.price;
+// })
 
-const tvPriceLowToHigh = inventory.sort((a, b) => {
-    return a.price - b.price;
-})
-
-console.log(tvPriceLowToHigh);
+// console.log(tvPriceLowToHigh);
